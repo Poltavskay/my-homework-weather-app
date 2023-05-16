@@ -1,10 +1,13 @@
 body {
-background-color: #7bbcab;
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/243/original/diego-ph-BCuxVP5WEsU-unsplash.jpg?1684233569");
+ background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment:fixed;
 font-family: arial, sans-serif;
  
 }
 h1{
-    color: #ffff80;
+    color: #f2e9ec;
     display: block;
     font-size: 24px;
     font-weight: 100;
@@ -18,7 +21,7 @@ h1{
 .weather-app-wrapper{
     max-width: 600px;
     margin: 30px auto;
-    background-color: rgba(10, 255, 173, 0.681);
+    background-color: #ff745f;
   }
   .weather-app {
     padding: 20px;
@@ -48,8 +51,7 @@ h1{
   font-size: 16px;
   top: -34px;
   }
-  
-  
+
   
   .weather-temperature .active {
     color: rgb(33, 33, 33);
@@ -80,9 +82,4 @@ h1{
     font-size: 13px;
   }
 
-  .temperature-section {
-    background-color:#7bbcab ;
-  }
 
-          
-  
